@@ -105,11 +105,11 @@ const WorkingProcess = [
     },
     {
         title: 'Reporting and Communication',
-        description: 'In the Reporting and Communication phase, transparency is our commitment. We provide comprehensive insights, distilling complex data into actionable strategies, and maintain open channels to ensure your goals align seamlessly with our collaborative efforts, fostering a partnership rooted in clarity and success.',
+        description: 'During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.',
     },
     {
         title: 'Continual Improvement',
-        description: 'In our Continual Improvement phase, we iterate and innovate, consistently refining strategies to adapt to dynamic digital landscapes. Embracing change as an opportunity, we ensure your brand stays at the forefront, delivering sustained growth and relevance in an ever-evolving digital ecosystem.',
+        description: 'During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.',
     },
 
 ];
