@@ -23,6 +23,7 @@ import team01 from '../assets/team01.png';
 import hero from '../assets/hero.png';
 import logoDark from "../assets/logoDark.png";
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default{
 thingshappen,
 contact,
