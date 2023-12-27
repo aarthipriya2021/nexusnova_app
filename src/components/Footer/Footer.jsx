@@ -13,8 +13,7 @@ const Footer = () => {
         <div className="col-md-8 col-12 ">
           <ul className="navbar-footer">
             {data.Menu.slice(0, -1).map((item, index) => (
-              // eslint-disable-next-line jsx-a11y/anchor-is-valid
-              <li><a href='#'>{item.text}</a></li>
+              <li><a href='#home'>{item.text}</a></li>
             ))}
           </ul>
         </div>
@@ -41,7 +40,7 @@ const Footer = () => {
         </div>
         <div className="rights">
           <p>© 2023 NexusNova. All Rights Reserved.</p>
-          <p><a href='#' alt="Privacy Policy">Privacy Policy</a></p>
+          <p><a href='#home' alt="Privacy Policy">Privacy Policy</a></p>
         </div>
       </div>
     </footer>
