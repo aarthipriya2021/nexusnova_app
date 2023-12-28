@@ -1,4 +1,4 @@
-.case-studies {
+.caseStudies {
   background: var(--color-dark);
   margin: 1rem auto;
   border-radius: 45px;
@@ -14,29 +14,28 @@
   display: inline-block;
 }
 
-.case-studies p {
+.caseStudies p {
   padding: 0 1rem;
 }
 
-.case-studies a {
+.caseStudies a {
   color: var(--color-highlight);
   display: block;
   text-decoration: none;
   margin: 1rem;
 }
 
-.case-studies a svg {
+.caseStudies a svg {
   font-size: 26px;
 }
 
-.case-studies a:hover {
+.caseStudies a:hover {
   color: var(--color-grey);
 }
 
 @media (max-width: 768px) {
-  .case-studies {
+  .caseStudies {
     padding: 0;
-
     background: transparent;
     display: flex;
     justify-content: flex-start;
@@ -57,15 +56,15 @@
     margin: 1rem;
   }
 
-  .case-studies p {
+  .caseStudies p {
     margin-top: 2rem;
   }
 }
 
-.case-studies div {
+.caseStudies div {
   border-right: 1px solid #fff;
 }
 
-.case-studies div:last-child {
+.caseStudies div:last-child {
   border: none;
 }

@@ -7,7 +7,7 @@
   min-height: 300px;
 }
 
-.speech-bubble {
+.speechBubble {
   position: relative;
   border: 1px solid var(--color-highlight);
   border-radius: 0.4em;
@@ -16,7 +16,7 @@
   padding: 15px;
 }
 
-.speech-bubble:after {
+.speechBubble:after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -31,7 +31,7 @@
   margin-bottom: -36px;
 }
 
-.carousel-name {
+.carouselName {
   color: var(--color-highlight);
   font-weight: 500;
   font-size: 20px;
@@ -39,7 +39,7 @@
   text-align: center;
   margin-top: 1.5rem;
 }
-.carousel-position {
+.carouselPosition {
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
@@ -62,7 +62,7 @@
 }
 
 @media (max-width: 768px) {
-  .speech-bubble {
+  .speechBubble {
     padding: 15px;
     margin: 15px 5px;
     font-size: 14px;

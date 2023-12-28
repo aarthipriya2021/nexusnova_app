@@ -6,7 +6,7 @@ import "./Testimonials.css";
 
 const Testimonials = () => {
   return (
-    <div className="section-padding" id="testimonials">
+    <div className="sectionPadding" id="testimonials">
       <Headings
         title="Testimonials"
         text="Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services"
@@ -17,9 +17,9 @@ const Testimonials = () => {
           {data.Testimonials.map((item, index) => (
             <Carousel.Item className="carousel-box" interval={6000}>
               <Carousel.Caption>
-                <p className="speech-bubble"> {item.testimonial}</p>
-                <div class="carousel-name">{item.name}</div>
-                <div class="carousel-position">{item.position}</div>
+                <p className="speechBubble"> {item.testimonial}</p>
+                <div class="carouselName">{item.name}</div>
+                <div class="carouselPosition">{item.position}</div>
               </Carousel.Caption>
             </Carousel.Item>
           ))}

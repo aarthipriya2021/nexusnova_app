@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css';
-import { images, data } from '../../constants';
+import data  from '../../constants/data';
+import images  from '../../constants/images';
 import { BsFacebook, BsTwitter } from 'react-icons/bs'
 
 const Footer = () => {
@@ -21,7 +22,7 @@ const Footer = () => {
       </div>
       <div className="row">
         <div className="col-md-4 col-12">
-          <ul className="info-contact">
+          <ul className="infoContact">
             <li><span>Contact us:</span></li>
             <li>Email: info@nexusnova.com</li>
             <li>Phone: +91 1234567890</li>
@@ -29,12 +30,12 @@ const Footer = () => {
           </ul>
         </div>
         <div className="col-md-8 col-12">
-          <form className="row form-news">
+          <form className="row formNews">
             <div className="col-lg-6 col-12">
               <input type="email" className="form-control" id="email" placeholder="Email" />
             </div>
             <div className="col-lg-6 col-12">
-              <button type="submit" className="btn-positivus w-100">Subscribe to news</button>
+              <button type="submit" className="nexusBtn w-100">Subscribe to news</button>
             </div>
           </form>
         </div>

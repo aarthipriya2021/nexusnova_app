@@ -1,6 +1,6 @@
 import React from 'react';
 import Heading from "../Heading/Heading";
-import { data} from "../../constants";
+import data from "../../constants/data";
 import { BsFillArrowUpRightCircleFill } from "react-icons/bs";
 import "./Services.css";
 
@@ -16,12 +16,12 @@ const Services = () => {
                     <div>
                       <span>{titletwo}</span>
                     </div>
-                    <a href={link} alt={titleone} className='readmore'>
+                    <a href={link} alt={titleone} className='readMore'>
                       <BsFillArrowUpRightCircleFill /> Learn More
                     </a>
               </div>
               <div className='col-md-6 text-end'>
-                <img src={imgURL} alt={titleone} className="img-fluid img-services" />
+                <img src={imgURL} alt={titleone} className="img-fluid servicesImg" />
               </div>
             </div>
           </div>

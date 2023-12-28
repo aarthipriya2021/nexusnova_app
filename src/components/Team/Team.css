@@ -1,4 +1,4 @@
-.card-team {
+.cardTeam{
   background: #ffffff;
   border: 1px solid #191a23;
   box-shadow: 0px 5px 0px #191a23;
@@ -9,7 +9,7 @@
   max-width: 390px;
 }
 
-.card-team-header {
+.cardTeamHeader {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -18,31 +18,31 @@
   padding-bottom: 1rem;
   margin-bottom: 1rem;
 }
-.card-team-header img {
+.cardTeamHeader img {
   width: 70px;
 }
 
-.card-team-header span {
+.cardTeamHeader span {
   display: block;
   font-weight: 700;
 }
 
-.card-team-header a {
+.cardTeamHeader a {
   align-self: flex-start;
   align-items: end;
 }
 
-.card-team-header a svg {
+.cardTeamHeader a svg {
   font-size: 20px;
   color: #000;
   background: var(--color-highlight);
 }
 
-.card-team-header a svg:hover {
+.cardTeamHeader a svg:hover {
   background: #ffffff;
   transform: scale(1.1);
 }
-.card-team p {
+.cardTeam p {
   font-weight: 400;
   font-size: 16px;
   line-height: 23px;
@@ -50,7 +50,7 @@
 }
 
 @media (max-width: 768px) {
-  .card-team {
+  .cardTeam {
     margin: 1.5rem auto;
     max-width: 460px;
   }

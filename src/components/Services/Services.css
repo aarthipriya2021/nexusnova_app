@@ -52,7 +52,7 @@
   background: var(--color-grey);
 }
 
-.readmore {
+.readMore {
   display: block;
   bottom: 0;
   color: var(--color-dark);
@@ -60,24 +60,24 @@
   text-decoration: none;
 }
 
-.readmore svg {
+.readMore svg {
   font-size: 26px;
   margin-right: 0.5rem;
 
   color: var(--color-dark);
 }
 
-.bdark .readmore,
-.bdark .readmore svg {
+.bdark .readMore,
+.bdark .readMore svg {
   color: #fff;
 }
 
-.readmore:hover {
+.readMore:hover {
   transform: scale(1.1);
   color: var(--color-dark);
 }
 
-.bdark .readmore:hover {
+.bdark .readMore:hover {
   transform: scale(1.1);
   color: #fff;
 }
@@ -88,21 +88,21 @@
     min-height: 60px;
   }
 
-  .readmore {
+  .readMore {
     position: absolute;
     bottom: -7em;
   }
 }
 
 @media (max-width: 510px) {
-  .img-services {
+  .servicesImg {
     width: auto;
     max-width: 50%;
     margin-top: -100px;
     z-index: 9999;
   }
 
-  .readmore {
+  .readMore {
     position: absolute;
     bottom: -5em;
     font-size: 16px;

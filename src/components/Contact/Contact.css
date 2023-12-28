@@ -8,12 +8,12 @@
   margin-bottom: 6rem;
 }
 
-.form-group {
+.formGroup {
   margin: 1.5rem 0;
 }
 
-.form-group input,
-.form-group textarea {
+.formGroup input,
+.formGroup textarea {
   background: #ffffff;
   border: 1px solid #000000;
   border-radius: 14px;

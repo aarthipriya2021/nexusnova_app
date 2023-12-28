@@ -25,18 +25,18 @@ ul.navbar-footer li a {
   color: #fff;
 }
 
-ul.info-contact {
+ul.infoContact {
   margin: 3rem 0;
   padding: 0;
   max-width: 300px;
 }
 
-.info-contact li {
+.infoContact li {
   margin: 0.8rem 0;
   padding: 0;
 }
 
-.info-contact li span {
+.infoContact li span {
   background: var(--color-highlight);
   color: var(--color-dark);
   border-radius: 7px;
@@ -48,19 +48,19 @@ ul.info-contact {
   display: inline-block;
 }
 
-.form-news {
+.formNews {
   border-radius: 14px;
   padding: 3rem 1.5rem;
   background-color: #292a32;
   margin: 3rem 0rem;
 }
-.form-news input[type="email"],
+.formNews input[type="email"],
 .btn {
   width: 100%;
   padding: 15px;
 }
 
-footer .btn-positivus {
+footer .nexusBtn {
   background: var(--color-highlight);
   color: var(--color-dark);
   font-size: 16px;
@@ -99,10 +99,13 @@ footer .btn-positivus {
     display: block;
   }
 
-  ul.info-contact {
+  ul.infoContact {
     margin: 3rem auto;
   }
 
+  .formNews button{
+    margin-top: 15px;
+  }
   .rights {
     flex-direction: column;
     text-align: center;

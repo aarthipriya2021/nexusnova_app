@@ -6,7 +6,7 @@ import './Process.css';
 
 const Process = () => {
   return (
-    <div className="section-padding" id="process">
+    <div className="sectionPadding" id="process">
       <Heading title="Our Working Process " text="Step-by-Step Guide to Achieving Your Business Goals" />
       <Accordion>
         {data.WorkingProcess.map((item, index) => (

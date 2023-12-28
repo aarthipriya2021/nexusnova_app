@@ -4,7 +4,7 @@ import images from "../../constants/images";
 
 const CTA = () => {
   return (
-    <div className='section-padding'>
+    <div className='sectionPadding'>
       <div className="row cta">
         <div className="col-lg-8 col-12">
           <h3>Let’s make things happen</h3>
@@ -12,7 +12,7 @@ const CTA = () => {
             Contact us today to learn more about how our digital marketing
             services can help your business grow and succeed online.
           </p>
-          <button className="btn-positivus">Get your free proposal</button>
+          <button className="nexusBtn">Get your free proposal</button>
         </div>
         <div className="col-lg-4 d-lg-flex d-none">
           <img src={images.thingshappen} alt="thingshappen" />
